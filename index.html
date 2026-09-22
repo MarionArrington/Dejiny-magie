@@ -57,11 +57,12 @@
 <p style="text-align: justify; margin-bottom: 5px; font-size: 13px; color: #d8b37e;"><b><font color="#c91a1a"><u><big>INFORMOUS</big></u></font></b></p>
 <p style="text-align: justify; margin-bottom: 15px; font-size: 13px; color: #d8b37e;">Kúzlo využívané najmä historikmi a bádateľmi, ktorého účelom je <font color="#c91a1a">určiť presný vek predmetu, na ktorý je zoslané.</font> Inkantácia aj výslovnosť sú pomerne jednoduché, stačí namieriť prútik na predmet a vysloviť formulu s dôrazom na druhú slabiku. Keď sa dostatočne sústredíte, v mysli sa Vám vybaví požadovaná informácia. <font color="#c91a1a">Kúzlo nemožno aplikovať na živé bytosti,</font></p>
 
-<p style="text-align: justify; font-size: 13px; color: #d8b37e;">
-<img src="https://i.ibb.co/5sNj74W/informous-k-zlo.png" align="left" style="margin-right: 15px; margin-bottom: 10px;" width="220" height="290">
-Za údajného vynálezcu kúzla sa považuje bývalý študent Zmijozelu, <font color="#c91a1a">Chroniculus Punnet</font> (1912-1993), ktorý po ukončení štúdia pôsobil ako historik a svoj výskum zameral na svoju alma mater – Bradavickú školu čar a kúziel. Predpokladá sa, že kúzlo vytvoril počas svojho výskumu s cieľom presnejšie určovať vek predmetov nachádzajúcich sa v škole. O tieto poznatky sa chcel zo svetom podeliť o sedem rokov neskôr, no skôr ako sa mu podarilo svoje zistenia publikovať, zistil, že knihu Dejiny Bradavíc už vydala Bathilda Bagshotová. Táto udalosť mala naňho devastujúci psychický dopad – po zrútení sa potuloval po Priečnej ulici a verejne vyhlasoval, že je jediným skutočným autorom spomínanej publikácie. Následne bol umiestnený do Nemocnice sv. Munga, kde zostal až do roku 1985. S návratom aspoň časti zdravého rozumu prežil zvyšok života vo svojom domove.</p><br>
+<div style="overflow: hidden; margin-bottom: 15px;">
+    <img src="https://i.ibb.co/5sNj74W/informous-k-zlo.png" class="informous-img" align="left" style="margin-right: 15px; margin-bottom: 10px;" width="220" height="290">
+    <p style="text-align: justify; font-size: 13px; color: #d8b37e; margin: 0;">Za údajného vynálezcu kúzla sa považuje bývalý študent Zmijozelu, <font color="#c91a1a">Chroniculus Punnet</font> (1912-1993), ktorý po ukončení štúdia pôsobil ako historik a svoj výskum zameral na svoju alma mater – Bradavickú školu čar a kúziel. Predpokladá sa, že kúzlo vytvoril počas svojho výskumu s cieľom presnejšie určovať vek predmetov nachádzajúcich sa v škole. O tieto poznatky sa chcel zo svetom podeliť o sedem rokov neskôr, no skôr ako sa mu podarilo svoje zistenia publikovať, zistil, že knihu Dejiny Bradavíc už vydala Bathilda Bagshotová. Táto udalosť mala naňho devastujúci psychický dopad – po zrútení sa potuloval po Priečnej ulici a verejne vyhlasoval, že je jediným skutočným autorom spomínanej publikácie. Následne bol umiestnený do Nemocnice sv. Munga, kde zostal až do roku 1985. S návratom aspoň časti zdravého rozumu prežil zvyšok života vo svojom domove.</p>
+</div>
 
-<div align="right"><img src=https://i.ibb.co/tPtxVkk/pppp.png width="7%"></div>
+<div align="right"><img src="https://i.ibb.co/tPtxVkk/pppp.png" width="7%"></div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -80,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // A. Rotácia pre kúzlo Informous
-    const informousImg = document.querySelector('img[src*="informous-k-zlo"]');
+    const informousImg = document.querySelector('img.informous-img');
     if (informousImg) {
         const container = document.createElement('div');
         container.className = 'spell-card-container';
